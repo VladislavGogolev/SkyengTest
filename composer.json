@@ -1,0 +1,22 @@
+{
+  "name": "vladislavgogolev/skyeng-test",
+  "description": "SkyengTest",
+  "minimum-stability": "stable",
+  "license": "none",
+  "authors": [
+    {
+      "name": "Vladislav Gogolev",
+      "email": "qwerty_27533@mail.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "psr/cache": "^1.0",
+    "psr/log": "^1.1"
+  }
+}
